@@ -4,7 +4,7 @@ import GradiantText from "../../shared/GradiantText.astro";
 import SubTitle2 from "../../shared/SubTitle2.astro";
 import Title2 from "../../shared/Title2.astro";
 import Testimonial from "./components/Testimonial.astro";
-import { testimonialsSection } from "../../../utils/data.ts";
+import { TESTIMONIALS } from "../../../constants/data.ts";
 
 export interface Props {
   className?: string;
@@ -17,10 +17,10 @@ const { className } = Astro.props;
   <Container
     className="mx-auto flex flex-col items-center justify-center text-center"
   >
-    <Title2>{testimonialsSection.title}</Title2>
+    <Title2>{TESTIMONIALS.title}</Title2>
     <SubTitle2>
-      <GradiantText> {testimonialsSection.subheading1_1}</GradiantText><br />
-      {testimonialsSection.subheading1_2}
+      <GradiantText> {TESTIMONIALS.subheading1_1}</GradiantText><br />
+      {TESTIMONIALS.subheading1_2}
     </SubTitle2>
   </Container>
   <Container className="flex flex-col items-center">
@@ -28,7 +28,7 @@ const { className } = Astro.props;
       class="mt-8 flex flex-col gap-8 midmd:flex-row text-heading-3 font-medium"
     >
       {
-        testimonialsSection.testimonials.map((testimonial) => {
+        TESTIMONIALS.testimonials.map((testimonial) => {
           return (
             <Testimonial
               name={testimonial.name}

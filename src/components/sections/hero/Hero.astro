@@ -1,23 +1,11 @@
 ---
-import { Image, Picture } from "astro:assets";
-import heroImg from "./assets/wind3.jpg";
+import heroImg from "../../../assets/wind3.jpg";
 import CtaButton from "../../shared/CtaButton.astro";
 import GradiantText from "../../shared/GradiantText.astro";
 import SubTitle from "../../shared/SubTitle.astro";
 import Title from "../../shared/Title.astro";
 import LazyImage from "../../shared/LazyImage.astro";
-
-const heroSection = {
-  headline1: "Powering",
-  headline2: "Tomorrow,",
-  headline3: "Sustainably",
-  headline4: "Today!",
-  subheading1: "Join us in the green energy revolution",
-  subheading2: "and be part of a sustainable future",
-  subheading3: "for generations to come.",
-  buttonText: "Get Powered Today!",
-  backgroundImage: "hero-background-image.jpg",
-};
+import {HEROSECTION} from "../../../constants/data.ts";
 
 export interface Props {
   className?: string;
@@ -33,21 +21,21 @@ const { className = "" } = Astro.props;
     >
       <div class="justify-center flex flex-col text-center md:ml-auto">
         <Title className="">
-          {heroSection.headline1}
+          {HEROSECTION.headline1}
           <GradiantText
-            >{" " + heroSection.headline2}
+            >{" " + HEROSECTION.headline2}
             <br />
-            {" " + heroSection.headline3}
-          </GradiantText>{heroSection.headline4}
+            {" " + HEROSECTION.headline3}
+          </GradiantText>{HEROSECTION.headline4}
         </Title>
         <SubTitle className=" mt-10 leading-9 italic">
-          {heroSection.subheading1}
+          {HEROSECTION.subheading1}
           <br />
-          {heroSection.subheading2}<br />
-          {heroSection.subheading3}
+          {HEROSECTION.subheading2}<br />
+          {HEROSECTION.subheading3}
         </SubTitle>
         <div class="pt-10">
-          <CtaButton>{heroSection.buttonText}</CtaButton>
+          <CtaButton>{HEROSECTION.buttonText}</CtaButton>
         </div>
       </div>
       <div class="flex relative pt-10 md:p-0">

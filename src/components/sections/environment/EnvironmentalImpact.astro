@@ -6,7 +6,7 @@ import LazyImage from "../../shared/LazyImage.astro";
 import Paragraph from "../../shared/Paragraph.astro";
 import SubTitle2 from "../../shared/SubTitle2.astro";
 import Title2 from "../../shared/Title2.astro";
-import { environmentalImpactSection } from "../../../utils/data.ts";
+import { ENVIRONMENT } from "../../../constants/data.ts";
 
 export interface Props {
   className?: string;
@@ -17,7 +17,7 @@ const { className } = Astro.props;
 
 <section id="environment" class=`${className}`>
   <Container>
-    <Title2>{environmentalImpactSection.title}</Title2>
+    <Title2>{ENVIRONMENT.title}</Title2>
   </Container>
   <Container className="flex flex-col midmd:flex-row gap-10 lg:gap-12 ">
     <!-- <div
@@ -27,15 +27,15 @@ const { className } = Astro.props;
       class="max-w-md mr-auto w-11/12 flex-1 flex midmd:w-7/12 lg:w-1/2 flex-col"
     >
       <SubTitle2>
-        {environmentalImpactSection.subheading1_1}
-        <GradiantText>{environmentalImpactSection.subheading1_2}</GradiantText>
+        {ENVIRONMENT.subheading1_1}
+        <GradiantText>{ENVIRONMENT.subheading1_2}</GradiantText>
       </SubTitle2>
       <Paragraph>
-        {environmentalImpactSection.description}
+        {ENVIRONMENT.description}
       </Paragraph>
       <ul class="mt-8 space-y-4 text-heading-3">
         {
-          environmentalImpactSection.impactPoints.map((point) => (
+          ENVIRONMENT.impactPoints.map((point) => (
             <li>
               <Paragraph className="font-normal">
                 <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center">
@@ -48,24 +48,14 @@ const { className } = Astro.props;
         }
       </ul>
       <div class="pt-10">
-        <CtaButton>{environmentalImpactSection.button}</CtaButton>
+        <CtaButton>{ENVIRONMENT.button}</CtaButton>
       </div>
     </div>
     <div
       class="midmd:max-w-none flex w-11/12 midmd:w-5/12 lg:w-1/2 midmd:h-auto"
     >
-      <!-- <div
-      class="max-w-md mx-auto midmd:max-w-none lg:mx-0 lg:pr-10 xl:pr-2 flex w-11/12 midmd:w-5/12 lg:w-1/4 midmd:h-[587px]"
-    > -->
-      <!-- <LazyImage
-        src={environmentalImpactSection.visual}
-        alt="environmental impact"
-        height="587"
-        width="388"
-        class="w-full h-full object-cover rounded-2xl"
-      /> -->
       <LazyImage
-        src={environmentalImpactSection.visual}
+        src={ENVIRONMENT.visual}
         alt="environmental impact"
         width="700"
         class="w-full h-full object-cover rounded-2xl"
