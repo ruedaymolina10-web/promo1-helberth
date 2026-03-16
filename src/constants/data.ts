@@ -124,7 +124,7 @@ export const ENVIRONMENT = {
 };
 
 export const TESTIMONIALS = {
-  title: "What Our Customers Say",
+  title: "que dicen nuestros clientes",
   subheading1_1: "Hear from Those",
   subheading1_2: " Who Have Embraced Sustainable Living",
   testimonials: [
@@ -231,8 +231,8 @@ export const footerNav1 = [
 ];
 
 export const footerSupport = [
-  { itemText: "Pricing", itemLink: "#",},
-  { itemText: "Guides", itemLink: "#",},
+  { itemText: "Precios", itemLink: "#",},
+  { itemText: "Guias", itemLink: "#",},
   { itemText: "FAQ", itemLink: "#", },
   { itemText: "Contact",itemLink: "#", },
 ];
