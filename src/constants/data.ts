@@ -13,13 +13,13 @@ export const NAVITEMS = [
 
 
  export const HEROSECTION = {
-  headline1: "Powering",
-  headline2: "Tomorrow,",
-  headline3: "Sustainably",
-  headline4: "Today!",
-  subheading1: "Join us in the sgreen energy revolution",
-  subheading2: "and be part of a sustainable future",
-  subheading3: "for generations to come.",
+  headline1: "EMPODERANDO",
+  headline2: "UN MAÑANA,",
+  headline3: "SOSTENIBLE",
+  headline4: "HOY!",
+  subheading1: "UNETE EN LA GRAN REVOLUCION VERDE",
+  subheading2: "Y SE PARTE DE UN FUTURO SOSTENIBLE",
+  subheading3: "PARA LAS FUTURAS GENERECIONES.",
   buttonText: "Get Powered Today!",
   backgroundImage: "hero-background-image.jpg",
 };
