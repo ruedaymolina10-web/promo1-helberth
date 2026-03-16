@@ -59,25 +59,25 @@ export const SERVICES = {
       visual: img4,
     },
     {
-      title: "Smart Grid Technology",
+      title: "tecnologia inteligente",
       briefDescription:
         "Navigate the future with our smart grid technology. Optimize energy distribution, monitor consumption, and contribute to a more sustainable and efficient energy ecosystem.",
       visual: img5,
     },
     {
-      title: "Energy-efficient Lighting",
+      title: "luz de energia eficiente",
       briefDescription:
         "Illuminate your space responsibly. Our energy-efficient lighting solutions provide bright, sustainable, and cost-effective illumination for homes and businesses.",
       visual: img6,
     },
   ],
   callToAction:
-    "Discover the Future of Green Energy. Choose Your Sustainable Solution Today!",
+    "descubre el futuro de energia verde. Choose Your Sustainable Solution Today!",
   buttonText: "Explore More",
 };
 
 export const INNOVATIONS = {
-  title: "Latest Innovations",
+  title: "ultimas innovaciones",
   subheading1_1: "Discover Our Cutting-edge",
   subheading1_2: "Green Energy Technologies",
   innovations: [
@@ -88,7 +88,7 @@ export const INNOVATIONS = {
        visual: imgGrid,
     },
     {
-      title: "1.Advanced Solar Panel Design",
+      title: "1.diseno de paneles solares avanzado",
       description:
         "Boost solar efficiency with our state-of-the-art solar panel designs. Our innovative technologies capture more sunlight, ensuring maximum energy production for your home or business. Experience enhanced sustainability and increased energy output with our advanced solar solutions.",
        visual: imgSolar,
