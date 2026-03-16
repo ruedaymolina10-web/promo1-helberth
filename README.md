@@ -1,4 +1,4 @@
-# 🌱 Green Energy Astro Template
+# WEB PAGE FROM HELBERTH MOLINA
 
 A modern, responsive website template for green energy companies built with Astro and TailwindCSS. This template provides a complete solution for renewable energy businesses to showcase their services, innovations, and environmental impact.
 

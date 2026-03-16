@@ -26,16 +26,16 @@ export const NAVITEMS = [
 
 
 export const SERVICES = {
-  title: "Our Sustainable Energy Solutions",
+  title: "Nuestras soluciones de energia",
   subheading: {
-    text1_1: "Experience a Revolution in Energy Solutions - ",
+    text1_1: "Experimenta una solucion de energia sostenible- ",
     text1_2: "Embrace Innovation, Embrace Sustainability.",
     text2:
-      "We're here to Empower Your Life and Spaces with Clean, Renewable Energy, Paving the Way for a Brighter and Greener Tomorrow.",
+      "estamos aqui para empoderar tu vida y espacios con limpia, Energia renovable, Paving the Way for a Brighter and Greener Tomorrow.",
   },
   services: [
     {
-      title: "Solar Power Solutions",
+      title: "soluciones solares",
       briefDescription:
         "Harness the power of the sun with our state-of-the-art solar panels. Generate clean energy for your home or business and reduce your carbon footprint.",
       visual: img1,
@@ -47,13 +47,13 @@ export const SERVICES = {
       visual: img2,
     },
     {
-      title: "Hydropower Systems",
+      title: "sistemas hidropower",
       briefDescription:
         "Flow with nature. Our hydropower systems harness the energy of flowing water, delivering reliable and eco-friendly electricity to your doorstep.",
       visual: img3,
     },
     {
-      title: "Energy Storage Solutions",
+      title: "soluciones almacenamiento de energia",
       briefDescription:
         "Store excess energy efficiently. Our cutting-edge energy storage solutions ensure uninterrupted power supply, even during cloudy days or low-wind periods.",
       visual: img4,
