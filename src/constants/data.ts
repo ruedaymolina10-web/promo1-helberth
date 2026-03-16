@@ -192,26 +192,26 @@ export const GETINVOLVED = {
   subheading1_2: "in Building a Sustainable Future",
   initiatives: [
     {
-      title: "Community Outreach",
+      title: "ALCANCE DE LA COMUNIDAD",
       description:
-        "Discover our community initiatives aimed at promoting awareness and education on sustainable living. Join us in creating a positive impact together.",
+        "Descubre nuestras iniciativas de la comunidad aimed at promoting awareness and education on sustainable living. Join us in creating a positive impact together.",
       visual: svg2,
     },
     {
-      title: "Green Events",
+      title: "EVENTOS VERDES",
       description:
-        "Participate in our upcoming green events. From tree-planting drives to eco-friendly workshops, be a part of the movement towards a healthier planet.",
+        "Participa en nuestros proximos eventos. From tree-planting drives to eco-friendly workshops, be a part of the movement towards a healthier planet.",
       visual: svg4,
     },
     {
-      title: "Partnerships for Sustainability",
+      title: "ASOCIACIONES SOSTENIBLES",
       description:
         "Explore our partnerships with organizations dedicated to environmental conservation. Learn how you can contribute to sustainable practices through collaboration.",
       visual: svg3,
     },
   ],
   visual: "get-involved-section-image.jpg",
-  callToAction: "Take Action Today for a Greener Tomorrow",
+  callToAction: "Toma accion hoy por un manana verde",
   button: "Join Our Initiatives",
 };
 
