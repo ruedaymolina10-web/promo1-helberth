@@ -82,7 +82,7 @@ export const INNOVATIONS = {
   subheading1_2: "Green Energy Technologies",
   innovations: [
     {
-      title: "1.Smart Grid Integration",
+      title: "1.integracion inteligente",
       description:
         "Revolutionize energy distribution with our smart grid technology, optimizing efficiency, minimizing wastage, and adapting to demand fluctuations. Stay connected with innovative solutions for a sustainable, cost-effective energy ecosystem. Embrace the future with our cutting-edge smart grid integration, enhancing reliability and paving the way for efficiency and sustainability.",
        visual: imgGrid,
@@ -94,9 +94,9 @@ export const INNOVATIONS = {
        visual: imgSolar,
     },
     {
-      title: "1.Next-gen Wind Turbines",
+      title: "1.turbinas de viento de nueva generacion",
       description:
-        "Transform your wind energy experience with our next-generation wind turbines. Our sleek design, enhanced efficiency, and minimal environmental impact underscore our commitment to innovation. Elevate your sustainable energy journey with cutting-edge wind solutions that prioritize both performance and environmental responsibility.",
+        "Transforma tu nueva energia del viento con nuestra porxima generacion de turbinas del viento. Our sleek design, enhanced efficiency, and minimal environmental impact underscore our commitment to innovation. Elevate your sustainable energy journey with cutting-edge wind solutions that prioritize both performance and environmental responsibility.",
      visual: imgWind,
     },
   ],
